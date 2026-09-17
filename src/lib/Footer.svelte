@@ -42,8 +42,6 @@
     flex-direction: column;
     place-items: center;
     padding-bottom: 2rem;
-
-
   }
 
   h2 {
@@ -93,14 +91,19 @@
     footer {
       min-width: none;
       padding-bottom: 0;
+      background-color: #BD4066;
+    }
+
+    h2 {
+      margin: 1.5rem 0 1.8rem;
     }
 
     ul {
       flex-direction: row;
       width: 100%;
-      padding: 4rem;
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0;
+      padding: 3rem;
+      padding-top: 0;
+      border-radius: 0;
       justify-content: center;
     }
   }

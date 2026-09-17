@@ -83,7 +83,6 @@
       grid-template-columns: 1.5fr 1fr;
       align-items: center;
       gap: 3rem;
-      max-width: 1200px;
       padding: 5rem;
     }
 
