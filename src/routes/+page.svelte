@@ -21,6 +21,10 @@
 
 <style>
 
+  main {
+    background-color:#8F1E40;
+  }
+
   section {
     display: flex;
     flex-direction: column;

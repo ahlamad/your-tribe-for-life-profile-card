@@ -2,8 +2,9 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import '../app.css';
 	import Navigation from "$lib/Navigation.svelte";
+	import Footer from "$lib/Footer.svelte";
 
-	let { children } = $props();
+	let { data, children } = $props();
 </script>
 
 <svelte:head>
@@ -13,3 +14,5 @@
 <Navigation/>
 
 {@render children()}
+
+<Footer data={data}/>

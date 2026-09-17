@@ -15,6 +15,7 @@
     padding: 1.2rem .6rem 1rem;
     align-self: flex-start;
     padding-bottom: 0;
+    background-color:#8F1E40;
   }
   
   img {
