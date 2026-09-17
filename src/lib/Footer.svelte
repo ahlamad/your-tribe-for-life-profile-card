@@ -45,19 +45,19 @@
   }
 
   h2 {
-    margin: 1.8rem 0 1.2rem 0;
+    margin: 2.1rem 0 1.2rem 0;
     font-size: 19px;
     font-weight: 500;
   }
 
   ul {
     background-color: #BD4066;
-    padding: 1rem;
+    padding: 1.8rem;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: .6rem;
+    gap: .8rem;
     box-shadow: #BD4066 0 0 12px 4px ;
   }
 
@@ -65,7 +65,7 @@
   a {
     display: flex;
     justify-content: center;
-    gap: .8rem;
+    gap: 1rem;
     text-decoration: none;
   }
 
