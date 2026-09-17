@@ -77,4 +77,35 @@
     padding: 0 12px 0 12px;
   }
 
+  @media (width >= 1000px) {
+    main {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      align-items: center;
+      gap: 3rem;
+      max-width: 1200px;
+      padding: 5rem;
+    }
+
+    .bio {
+      order: 1;
+      margin-top: 0;
+    }
+
+    .bio p {  
+      padding: 0;
+      max-width: 600px;
+    }
+
+    .name-image-wrapper {
+      order: 2;
+      align-items: center;
+      text-align: center;
+    }
+
+    img {
+      width: 220px;
+    }
+}
+
 </style>
