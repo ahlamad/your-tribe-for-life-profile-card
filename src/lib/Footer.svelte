@@ -42,6 +42,8 @@
     flex-direction: column;
     place-items: center;
     padding-bottom: 2rem;
+
+
   }
 
   h2 {
@@ -85,5 +87,21 @@
   span {
     font-size: 16px;
     font-weight: 300;
+  }
+
+  @media (width >= 1000px) {
+    footer {
+      min-width: none;
+      padding-bottom: 0;
+    }
+
+    ul {
+      flex-direction: row;
+      width: 100%;
+      padding: 4rem;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      justify-content: center;
+    }
   }
 </style>
