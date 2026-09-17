@@ -1,42 +1,44 @@
-# sv
+# Visitekaartje
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Inhoudsopgave
+- Live link
+- Installatie
+- Beschrijving
+- Mockups
+- Gebruik van site
+- Bronnen
+- Designkeuzes
+- Kenmerken van site
+- Code comventies
+- Contributing
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Live link
+Bekijk de website live hier --> https://your-tribe-for-life-profile-card-1.netlify.app/
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Installatie
 
-To recreate this project with the same configuration:
+Om de website lokaal te openen:
+1. Clone de repository
+2. Open de map in je code editor
+3. Installeer de dependencies:
 
-```sh
-# recreate this project
-npx sv@0.17.0 create --template minimal --no-types --install npm .
-```
+`npm install`
 
-## Developing
+4. Start de server:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+`npm run dev`
 
-```sh
-npm run dev
+5. Open de localhost link die in de terminal staat aangegeven
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Beschrijving
+Dit is mijn persoonlijke visitekaartje website. Op de website staan mijn naam, foto, bio en contactgegevens. De gegevens van mijn visitekaartje worden opgehaald uit Directus API.
 
-## Building
+## Mockups
 
-To create a production version of your app:
+### Mobile:
+<img width="200" height="500" alt="full size screen profilecard" src="https://github.com/user-attachments/assets/eeaeffa5-6bf1-4a3f-9813-2f95ddc9dbfb" />
 
-```sh
-npm run build
-```
+### Desktop:
+<img width="658" height="453" alt="Screenshot 2026-09-17 at 23 14 55" src="https://github.com/user-attachments/assets/a67d9b35-a160-42e0-aaf5-eefcbe687220" />
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
