@@ -23,4 +23,15 @@
     height: 30px;
   }
 
+  @media (width >= 1000px) {
+    header {
+      padding: 1.2rem;
+    }
+
+    img {
+      width: auto;
+      height: auto;     
+    }
+  }
+
 </style>
